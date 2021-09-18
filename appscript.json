@@ -7,17 +7,17 @@
     "https://www.googleapis.com/auth/script.external_request"
   ],
   "gmail": {
-    "name": "College Despamifier",
+    "name": "DespamifierV2.0",
     "logoUrl": "https://www.gstatic.com/images/icons/material/system/1x/receipt_black_24dp.png",
     "homepageTrigger": {
       "enabled": true,
-      "runFunction": "getContextualAddOn"
+      "runFunction": "introCardBuilder"
     },
     "openLinkUrlPrefixes": [
       "https://docs.google.com/"
     ],
-    "primaryColor": "#362E41",
-    "secondaryColor": "#862B35"
+    "primaryColor": "#40C9A2",
+    "secondaryColor": "#7C9FA6"
   },
   "runtimeVersion": "V8"
 }
